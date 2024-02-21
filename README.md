@@ -60,7 +60,7 @@ The algorithms to be applied include:
 - *Decision Trees*: Decision trees was chosen as the algorithm for our Content-Based Filtering Algorithm. Decision trees help classify and predict user preferences based on movie attributes. It would help us understand which movie attribute is the most influential such as genre or language etc. 
 
 ### Model Comparison
-We will compare the performance of the algorithms using metrics such as accuracy, precision, recall, and F1-score. The comparison will provide insights into the strengths and weaknesses of each algorithm.
+We will compare the performance of the algorithms using metrics such as accuracy, precision, recall, and F1-score. Moreover, recommender systems can also be compared using the Root-Mean-Square Error (RMSE). These different metrics will provide insights into the strengths and weaknesses of each algorithm.
 
 ## Conclusion
 The project summary outlines the objectives, dataset characteristics, research questions, and model design for analyzing "The Movies Dataset" found on Kaggle.
