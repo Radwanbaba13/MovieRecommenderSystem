@@ -55,9 +55,9 @@ We plan to use recommender system models to recommend movies to different user p
 - *Content-Based Filtering Model*: Content-based filtering models recommend items similar to those that a user has liked or interacted with based on item attributes. It connects movies that a user has liked in the past to other ones within the same category. This helps match the movies to the user’s personal preferences and interests.
   
 ### Algorithms
-The algorithms to be applied include:
+The algorithms to be researched include:
 - *Matrix Factorization*: Given the user dataset, we can build a user-item matrix. Matrix factorization will then decompose the large into two, one for users and one for movies. The model can then learn different patterns and recommend movies based on the preferences of different users. 
-- *Decision Trees*: Decision trees was chosen as the algorithm for our Content-Based Filtering Algorithm. Decision trees help classify and predict user preferences based on movie attributes. It would help us understand which movie attribute is the most influential such as genre or language etc. 
+- *TF-IDF (Term Frequency-Inverse Document Frequency)*: It was selected as the algorithm for our Content-Based Filtering System. TF-IDF aids in assessing the relevance of movie attributes by analyzing textual features such as summaries, tags, and user reviews.
 
 ### Model Comparison
 We will compare the performance of the algorithms using metrics such as accuracy, precision, recall, and F1-score. Moreover, recommender systems can also be compared using the Root-Mean-Square Error (RMSE). These different metrics will provide insights into the strengths and weaknesses of each algorithm.
