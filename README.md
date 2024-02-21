@@ -41,6 +41,8 @@ The second dataset is a large dataset which comprises over 26 million ratings fo
 - Timestamp: Date of the rating (date) 
 
 ## Research Questions
+We would like to take this opportunity to learn more about how Big Data applies in the real commercial world, as streaming and e-commerce have become a big point in sales and revenue for many different industries, we would like to gain hands-on experience on a project that uses similar techniques used in the real world. 
+
 The project aims to address the following research questions:
 1. How to build a movie recommendation system using past user ratings?
 2. Which movie feature would be the most optimal to increase the effectiveness of recommendations?
@@ -49,13 +51,13 @@ The project aims to address the following research questions:
 ## Model Design
 ### Class of Models
 We plan to use recommender system models to recommend movies to different user profiles. The selected class of models includes:
-- *Collaborative Filtering Model*: Recommends items based on user-item interactions and similarities between users or items.
-- *Content-Based Filtering Model*: Recommends items similar to those that a user has liked or interacted with based on item attributes.
-
+- *Collaborative Filtering Model*: Collaborative filtering models recommend items based on user-item interactions and similarities between users or items. It uses past user data to make recommendations and helps understand user-movie relations. It may provide more diverse recommendations. 
+- *Content-Based Filtering Model*: Content-based filtering models recommend items similar to those that a user has liked or interacted with based on item attributes. It connects movies that a user has liked in the past to other ones within the same category. This helps match the movies to the user’s personal preferences and interests.
+  
 ### Algorithms
 The algorithms to be applied include:
-- *Matrix Factorization*: Decomposes the user-item matrix to recommend movies based on user preferences.
-- *Decision Trees*: Classifies and predicts user preferences based on movie attributes.
+- *Matrix Factorization*: Given the user dataset, we can build a user-item matrix. Matrix factorization will then decompose the large into two, one for users and one for movies. The model can then learn different patterns and recommend movies based on the preferences of different users. 
+- *Decision Trees*: Decision trees was chosen as the algorithm for our Content-Based Filtering Algorithm. Decision trees help classify and predict user preferences based on movie attributes. It would help us understand which movie attribute is the most influential such as genre or language etc. 
 
 ### Model Comparison
 We will compare the performance of the algorithms using metrics such as accuracy, precision, recall, and F1-score. The comparison will provide insights into the strengths and weaknesses of each algorithm.
