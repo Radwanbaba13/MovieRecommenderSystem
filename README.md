@@ -63,4 +63,4 @@ The algorithms to be applied include:
 We will compare the performance of the algorithms using metrics such as accuracy, precision, recall, and F1-score. The comparison will provide insights into the strengths and weaknesses of each algorithm.
 
 ## Conclusion
-The project summary outlines the objectives, dataset characteristics, research questions, and model design for analyzing The Movies Dataset found on Kaggle.
+The project summary outlines the objectives, dataset characteristics, research questions, and model design for analyzing "The Movies Dataset" found on Kaggle.
