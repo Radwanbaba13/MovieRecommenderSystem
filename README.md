@@ -8,7 +8,7 @@ This project aims to analyze a movie database along with different user reviews.
 
 [This dataset can be found on Kaggle.](https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset?select=movies_metadata.csv)
 
-The dataset comprised of 45,000 movies which were listed in the full MovieLens Dataset. The data consists of movies released before July 2017. This first dataset is built upon 24 different features as movie metadata: 
+The dataset is comprised of 45,000 movies which were listed in the full MovieLens Dataset. The data consists of movies released before July 2017. This first dataset is built upon 24 different features as movie metadata: 
 - Adult: Whether the movie is rated as an adult film or not (boolean) 
 - Belongs_to_collection
 - Budget: The budget of the film (int) 
@@ -34,7 +34,7 @@ The dataset comprised of 45,000 movies which were listed in the full MovieLens D
 - Vote_average: Average vote or rating given by viewers. (type: float)
 - Vote_count: Total count of votes received for the movie. (type: int)
 
-The second dataset is a large dataset which comprises over 26 million ratings for the movies in the previous dataset. For 270,000 users in total. The features for this dataset include: 
+The second dataset is a large dataset which comprises over 26 million ratings for the movies in the previous dataset for 270,000 users in total. The features for this dataset include: 
 - Userid: Unique identifier for the user (int) 
 - Movieid: ID of the movie being reviewed (int) 
 - Rating: User rating on a scale of 0 to 5 (double) 
