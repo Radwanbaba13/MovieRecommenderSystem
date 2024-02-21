@@ -50,7 +50,7 @@ The project aims to address the following research questions:
 
 ## Model Design
 ### Class of Models
-We plan to use recommender system models to recommend movies to different user profiles. The selected class of models includes:
+We plan to use recommender system models to recommend movies to different user profiles. Although hybrid models are more commonly used for recommender systems, the selected class of models chosen includes:
 - *Collaborative Filtering Model*: Collaborative filtering models recommend items based on user-item interactions and similarities between users or items. It uses past user data to make recommendations and helps understand user-movie relations. It may provide more diverse recommendations. 
 - *Content-Based Filtering Model*: Content-based filtering models recommend items similar to those that a user has liked or interacted with based on item attributes. It connects movies that a user has liked in the past to other ones within the same category. This helps match the movies to the user’s personal preferences and interests.
   
