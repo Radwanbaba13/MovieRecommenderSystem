@@ -9,3 +9,6 @@ scipy==1.8.1
 scikit-learn==1.0.2
 pyarrow==6.0.1
 nltk==3.7
+matplotlib-venn==0.11.6
+seaborn==0.11.2
+pyspark
