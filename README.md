@@ -1,5 +1,3 @@
-# SOEN 471 - TEAM 9 - Project Summary
-
 ## Introduction
 
 This project aims to analyze a movie database along with different user reviews. This dataset contains metadata for 45,000 movies alongside 26 million ratings for all 45,000 movies. The main goal of this project is to build a movie recommendation system based on the ratings and votes of users found on the platform and to test different models for recommendation systems which are prominently used in today’s online media consumption.
